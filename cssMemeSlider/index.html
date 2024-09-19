@@ -14,29 +14,40 @@
 <body>
 <div class="wrapper">
     <div class="mem-slider">
-        <input type="radio" name="slider" id="slider1">
+        <input type="radio" name="slider" id="slider1" checked>
         <input type="radio" name="slider" id="slider2">
         <input type="radio" name="slider" id="slider3">
         <input type="radio" name="slider" id="slider4">
         <div class="memes">
-            <img src="./assets/img/1.jpg" alt="taro cat" class="mem">
-            <img src="./assets/img/2.jpg" alt="amazon gitar" class="mem">
-            <img src="./assets/img/3.jpg" alt="cat drive" class="mem">
-            <img src="./assets/img/4.jpg" alt="prodigy" class="mem">
+            <div class="mem-container">
+                <img src="./assets/img/1.jpg" alt="taro cat">
+            </div>
+            <div class="mem-container">
+                <img src="./assets/img/2.jpg" alt="amazon gitar">
+            </div>
+            <div class="mem-container">
+                <img src="./assets/img/3.jpg" alt="cat drive">
+            </div>
+            <div class="mem-container">
+                <img src="./assets/img/4.jpg" alt="prodigy">
+            </div>
         </div>
-        <div class="memes-text">
-            <div class="mem-text mem">Но ведь получится же!</div>
-            <div class="mem-text mem">Опять доставка подвела :(</div>
-            <div class="mem-text mem">Поехали!</div>
-            <div class="mem-text mem">Breathe &#127925;</div>
-        </div>
-        <div class="labels">
-            <label for="slider1"></label>
-            <label for="slider2"></label>
-            <label for="slider3"></label>
-            <label for="slider4"></label>
+        <div class="content">
+            <div class="memes-text">
+                <div class="mem-text">Но ведь получится же!</div>
+                <div class="mem-text">Опять доставка подвела :(</div>
+                <div class="mem-text">Поехали!</div>
+                <div class="mem-text">Breathe &#127925;</div>
+            </div>
+            <div class="labels">
+                <label for="slider1"><span></span></label>
+                <label for="slider2"><span></span></label>
+                <label for="slider3"><span></span></label>
+                <label for="slider4"><span></span></label>
+            </div>
         </div>
     </div>
 </div>
 </body>
 </html>
+
